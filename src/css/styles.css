@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  background: rgb(74,86,157);
+  background: linear-gradient(145deg, 
+  rgba(74,86,157,0.7609637605042017) 38%, 
+  rgba(228,228,3,0.43043154761904767) 60%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+#search-box {
+  font: inherit;
+  padding: 8px;
+  max-width: 320px;
+  margin-bottom: 16px;
+}
+
+input {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+ul, li, p {
+  margin: 5px;
+}
+
+.country-list,
+.country-info {
+  width: 100%;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.country-row-info {
+  display: flex;
+}
+.country-name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.country-capital,
+.country-population,
+.country-languages {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+}
+
+.country-item img {
+  margin-right: 10px;
+}

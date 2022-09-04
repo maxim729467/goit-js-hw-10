@@ -1,0 +1,27 @@
+       <img 
+             width="100" 
+             height="60" 
+             src={{flags.svg}} 
+             alt="{{name.common}} flag"
+        />
+        <p class="country-name">{{name.official}}</p>
+    <p class="country-row-info">
+        <span class="country-capital">Capital:</span>
+        {{capital}}
+    </p>
+    <p class="country-row-info">
+        <span class= "country-population">Population:</span>
+        {{population}}
+    </p>
+    <p class="country-row-info">
+        <span class="country-languages">Languages:</span>
+        <ul>
+            {{#each languages}}
+                <li>
+                   <p>
+                      &#8231; {{this}}
+                   </p>
+                </li>
+            {{/each}}
+        </ul>
+    </p>
